@@ -1,0 +1,239 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+h6 {
+  text-align: center;
+  font-size: medium;
+}
+
+.wrapper__1 {
+  max-width: 1000px;
+  text-align: center;
+  margin: 10px auto;
+}
+.sectoin {
+  display: inline-block;
+  outline: 2px solid rgb(91, 91, 95);
+  border-radius: 25px;
+  margin: 20px 20px;
+  height: 150px;
+  width: 150px;
+}
+
+.wrapper__2 {
+  width: 300px;
+  background-color: rgb(147, 150, 165);
+  margin: auto;
+}
+.wrapper__2 a {
+  width: 100%;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-size: xx-large;
+  text-aligh: left;
+}
+
+.wrapper__2 li {
+  list-style-type: none;
+}
+.wrapper__2 li :hover {
+  background-color: rgb(63, 63, 65);
+  transition: 0.6s;
+}
+.wrapper__3 {
+  width: 1000px;
+}
+.header {
+  padding-right: 780px;
+  padding-top: 30px;
+  background-color: rgb(59, 169, 212);
+  height: 70px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.menu {
+  padding-right: 800px;
+  padding-top: 15px;
+  background-color: rgb(23, 69, 88);
+  height: 50px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.aside__1 {
+  padding-right: 50px;
+  padding-top: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  background-color: rgb(59, 169, 212);
+  width: 250px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+}
+.aside__2 {
+  padding-right: 50px;
+  padding-top: 40px;
+  text-transform: uppercase;
+  background-color: rgb(59, 169, 212);
+  width: 250px;
+  height: 110px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+}
+.aside__3 {
+  float: right;
+  padding-left: 40px;
+  margin-top: 0px;
+  margin-left: 200px;
+  background-color: rgb(59, 169, 212);
+  width: 100px;
+  height: 230px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+.content {
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 50px;
+  margin-top: -250px;
+  margin-left: 270px;
+  margin-bottom: 20px;
+  background-color: rgb(59, 169, 212);
+  width: 610px;
+  height: 280px;
+  float: inline-start;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  /* float: none; */
+}
+.section__1 {
+  text-align: left;
+  width: 500px;
+  height: 90px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  background-color: rgb(114, 206, 243);
+  font-size: medium;
+  color: white;
+  font-weight: bold;
+}
+.section__2 {
+  text-align: left;
+  width: 500px;
+  height: 90px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  background-color: rgb(114, 206, 243);
+  font-size: medium;
+  color: white;
+  font-weight: bold;
+}
+.footer {
+  padding-right: 780px;
+  padding-top: 30px;
+  background-color: rgb(59, 169, 212);
+  height: 70px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.wrapper__4 {
+  background-color: rgb(79, 100, 221);
+  color: white;
+}
+.left {
+  width: 350px;
+  height: 150px;
+  margin-left: 50px;
+  text-align: left;
+  padding: 15px;
+  float: left;
+  font-size: large;
+}
+.center {
+  width: 250px;
+  height: 150px;
+  float: left;
+  padding-top: 20px;
+  font-size: large;
+  text-align: left;
+}
+.right {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-top: 20px;
+}
+ul {
+  list-style-type: none;
+  color: white;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+li a:hover {
+  text-decoration: underline;
+}
+h5 {
+  padding: 12px;
+  text-align: center;
+}
+a.fb {
+  background-image: url(../img/fb_gray.png);
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+a.fb:hover {
+  background-image: url(../img/fb.png);
+}
+a.insta {
+  background-image: url(../img/insta_gray.png);
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+.insta:hover {
+  background-image: url(../img/insta.png);
+}
+a.youtube {
+  background-image: url(../img/youtube_gray.png);
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+.youtube:hover {
+  background-image: url(../img/youtube.png);
+}
+hr {
+  clear: both;
+}
